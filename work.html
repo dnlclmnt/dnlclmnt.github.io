@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Work - Daniel Clement</title>
+    <meta
+      name="description"
+      content="Professional experience and independent projects by Daniel Clement, full-stack software engineer."
+    />
+    <meta property="og:title" content="Work - Daniel Clement" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <div class="wrap">
+        <a href="index.html" class="brand">Daniel Clement</a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <ul class="nav-links" data-open="false">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html" aria-current="page">Work</a></li>
+          <li>
+            <a
+              class="resume-link"
+              href="assets/files/DanielClement_Resume_2026.pdf"
+              target="_blank"
+              rel="noopener"
+              >Resume ↗</a
+            >
+          </li>
+          <li><a class="nav-cta" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <div class="wrap">
+          <h1>Professional experience and things I've built.</h1>
+          <p>
+            Three years of enterprise software engineering, plus the projects
+            I've built on my own to learn and stay sharp.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Experience</p>
+          </div>
+
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-date">Oct 2022 -<br />Sep 2025</div>
+              <div>
+                <h3 class="tl-role">Software Engineer</h3>
+                <p class="tl-org">Alleva · Laguna Niguel, CA</p>
+                <ul>
+                  <li>
+                    Revamped the web app's reporting section from UX-provided
+                    designs in Angular, implementing supporting REST API
+                    endpoints and C#/.NET backend methods.
+                  </li>
+                  <li>
+                    Developed and maintained .NET APIs and SQL Server stored
+                    procedures to support core web app functionality.
+                  </li>
+                  <li>
+                    Reduced daily data transfer from 1.5-2 TB to 10 GB by
+                    enabling direct Azure Blob file access instead of routing
+                    files through the REST API, cutting costs and improving
+                    system performance.
+                  </li>
+                  <li>
+                    Created and maintained Cypress end-to-end and unit tests,
+                    improving test coverage and reducing regression bugs.
+                  </li>
+                  <li>Implemented MVC patterns for new feature development.</li>
+                  <li>
+                    Removed XSS vulnerabilities by implementing input
+                    sanitization on user-submitted data, improving application
+                    security.
+                  </li>
+                  <li>
+                    Contributed to the migration from AngularJS to modern
+                    Angular, reducing technical debt and improving
+                    maintainability.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-date">Apr 2021 -<br />Feb 2022</div>
+              <div>
+                <h3 class="tl-role">Clinical Research Pharmacy Technician</h3>
+                <p class="tl-org">
+                  Augusta University Medical Center · Augusta, GA
+                </p>
+                <ul>
+                  <li>
+                    Supported clinical research pharmacy protocols in compliance
+                    with GCP guidelines, state/federal regulations, and
+                    health-system policies.
+                  </li>
+                  <li>
+                    Created several processes for organizing clinical research
+                    inventory and archiving studies.
+                  </li>
+                  <li>
+                    Assisted study coordinators with inquiries, audits, and
+                    documentation gathering and correction.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-date">Mar 2013 -<br />Jun 2017</div>
+              <div>
+                <h3 class="tl-role">Pharmacy Technician</h3>
+                <p class="tl-org">US Navy · Various locations</p>
+                <ul>
+                  <li>
+                    Managed pharmaceutical operations, equipment, inventory
+                    control, and medication/supply procurement across multiple
+                    naval medical facilities.
+                  </li>
+                  <li>
+                    Oversaw a $2.3M annual pharmaceutical budget and improved
+                    inventory tracking efficiency through barcode system
+                    implementation.
+                  </li>
+                  <li>
+                    Processed 30,000+ prescriptions, contributing to high
+                    patient satisfaction and operational accuracy.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-block">
+            <div>
+              <h3>B.S. in Software Engineering</h3>
+              <p>Western Governors University</p>
+            </div>
+            <div class="edu-date">2027</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-alt">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2>Independent builds</h2>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-bloggr.jpg"
+                  alt="Screenshot of the Bloggr application"
+                />
+              </div>
+              <div class="project-body">
+                <h3>Bloggr</h3>
+                <p>
+                  A blog posting app featuring full CRUD functionality to
+                  create, edit, and delete posts.
+                </p>
+                <div class="project-foot">
+                  <div class="tag-row">
+                    <span class="tag">Ruby</span>
+                    <span class="tag">Rails</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                  <a
+                    class="project-link"
+                    href="https://github.com/dnlclmnt/blog-post-app"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.59 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.36-5.47-6.04 0-1.33.46-2.42 1.23-3.27-.12-.31-.53-1.56.12-3.25 0 0 1-.33 3.3 1.25a11.2 11.2 0 0 1 6 0c2.29-1.58 3.29-1.25 3.29-1.25.66 1.69.25 2.94.12 3.25.77.85 1.23 1.94 1.23 3.27 0 4.69-2.81 5.72-5.49 6.03.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .32.22.71.83.59C20.57 22.34 24 17.73 24 12.3 24 5.5 18.63 0 12 0z"
+                      />
+                    </svg>
+                    View code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="assets/images/project-tictactoe.jpg"
+                  alt="Screenshot of the Tic Tac Toe game"
+                />
+              </div>
+              <div class="project-body">
+                <h3>Tic Tac Toe</h3>
+                <p>
+                  A simple tic-tac-toe game using React to dynamically render
+                  elements and switch players.
+                </p>
+                <div class="project-foot">
+                  <div class="tag-row">
+                    <span class="tag">React</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                  <a
+                    class="project-link"
+                    href="https://github.com/dnlclmnt/tic-tac-toe-game"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.59 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.36-5.47-6.04 0-1.33.46-2.42 1.23-3.27-.12-.31-.53-1.56.12-3.25 0 0 1-.33 3.3 1.25a11.2 11.2 0 0 1 6 0c2.29-1.58 3.29-1.25 3.29-1.25.66 1.69.25 2.94.12 3.25.77.85 1.23 1.94 1.23 3.27 0 4.69-2.81 5.72-5.49 6.03.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .32.22.71.83.59C20.57 22.34 24 17.73 24 12.3 24 5.5 18.63 0 12 0z"
+                      />
+                    </svg>
+                    View code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="footer-copy">© 2026 Daniel Clement</p>
+        <ul class="footer-links">
+          <li>
+            <a href="mailto:dnlclmnt@gmail.com">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+              >
+                <path d="M3 6h18v12H3z" />
+                <path d="M3 7l9 6 9-6" />
+              </svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/danielclement-/"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.7c0-1.6-.03-3.65-2.22-3.65-2.23 0-2.57 1.74-2.57 3.53V23h-4V8.5z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dnlclmnt"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.59 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.64-4.04-1.64-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.36-5.47-6.04 0-1.33.46-2.42 1.23-3.27-.12-.31-.53-1.56.12-3.25 0 0 1-.33 3.3 1.25a11.2 11.2 0 0 1 6 0c2.29-1.58 3.29-1.25 3.29-1.25.66 1.69.25 2.94.12 3.25.77.85 1.23 1.94 1.23 3.27 0 4.69-2.81 5.72-5.49 6.03.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .32.22.71.83.59C20.57 22.34 24 17.73 24 12.3 24 5.5 18.63 0 12 0z"
+                />
+              </svg>
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
